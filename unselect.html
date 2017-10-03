@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>Pop-up massege - Unselect</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="popup" onclick="myFunction()">Unselect All
+        <span class="popuptext" id="myPopup">Are you sure you want to unselect all?
+                <button><i class="material-icons">clear</i></button>
+            <br>
+            <button id="yes" onclick="">Yes</button>
+    <button id="no" onclick="">No</button>
+    </span>
+    </div>
+
+    <script>
+        // When the user clicks on a button, the popup opens
+        function myFunction() {
+            var popup = document.getElementById("myPopup");
+            popup.classList.toggle("show");
+        }
+    </script>
+</body>
+
+</html>
