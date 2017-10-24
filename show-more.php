@@ -5,7 +5,7 @@
 <title>Fav/LasV tabs</title>
 <!--W3, Stylesheet, JS-->
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="css/style.css">
 <script src="js/js.js"></script>
 
 

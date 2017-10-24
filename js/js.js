@@ -21,11 +21,14 @@ function openTab(evt, action) {
     document.getElementById(action).style.display = "block";
     evt.currentTarget.className += " active";
 
+    }
+
+/*
+Todo: Pause out unused JS
     document.getElementById("content").innerHTML = "";
     document.getElementById("content").innerHTML = alpha1["img", "description", "availability"];
 
-
-}
 //Add to favourite button
 function addToFavourite (){
 }
+*/
